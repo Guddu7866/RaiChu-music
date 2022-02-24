@@ -31,7 +31,7 @@ async def _human_time_duration(seconds):
 
 
 @Client.on_message(other_filters2)
-async def start(_, message: Message):
+async def s(_, message: Message):
         await message.reply_text(
         f"""**I ᴀᴍ 𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 𝙈𝙪𝙨𝙞𝙘   
 ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖](https://t.me/BotDuniya)
