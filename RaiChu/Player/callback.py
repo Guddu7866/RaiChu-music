@@ -1,4 +1,4 @@
-# © NOINOI MUSIC @CFC_BOT_SUPPORT
+# © BROKEN Mr z @iam_your_heart4
 
 from Process.queues import QUEUE
 from pyrogram import Client, filters
@@ -24,9 +24,9 @@ async def cbstart(_, query: CallbackQuery):
 🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ", url="https://T.ME/Shubhanshutya"),
-                InlineKeyboardButton("✨ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{UPDATES_CHANNEL}"),],
+                [InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{iam_your_heart4}"),
+                InlineKeyboardButton("ꜱᴏᴜʀᴄᴇ", url="https://T.Me/{iam_your_heart4"),
+                InlineKeyboardButton("✨ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{iam_your_heart4}"),],
                 [InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds"),
                 InlineKeyboardButton("❓ ꜱᴇᴛᴜᴘ", callback_data="cbsetup"),],
                 [InlineKeyboardButton(" ᴀᴅᴅ ᴍᴇᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)],
@@ -41,7 +41,7 @@ async def cbguides(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""❓ **Basic Guide for using this bot:**
         
-⊙ https://telegra.ph/file/a671532c23687e6fcc431.mp4
+⊙ https://telegra.ph/file/e1ad8c70f282d7c5661cf.jpg
 
 1.) **First, add me to your group.**
 2.) **Then, promote me as administrator and give all permissions except Anonymous Admin.**
@@ -52,7 +52,7 @@ async def cbguides(_, query: CallbackQuery):
 
 📌 **If the userbot not joined to video chat, make sure if the video chat already turned on, or type /userbotleave then type /userbotjoin again.**
 
-💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
+💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{iam_your_heart4}**
 
 **✨ ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴏɪɴᴏɪ ᴍᴜꜱɪᴄ** """,
         reply_markup=InlineKeyboardMarkup(
@@ -113,8 +113,8 @@ async def cbadmin(_, query: CallbackQuery):
 ➯ /resume - resume the stream
 ➯ /skip - switch to next stream
 ➯ /stop - stop the streaming
-➯ /vmute - mute the userbot on voice chat
-➯ /vunmute - unmute the userbot on voice chat
+➯ /mute - mute the userbot on voice chat
+➯ /unmute - unmute the userbot on voice chat
 ➯ /volume `1-200` - adjust the volume of music (userbot must be admin)
 ➯ /reload - reload bot and refresh the admin data
 ➯ /userbotjoin - invite the userbot to join group
