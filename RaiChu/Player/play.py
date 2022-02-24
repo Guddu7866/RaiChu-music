@@ -1,4 +1,4 @@
-# © 𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖
+# © Broken Mr z
 import io
 from os import path
 from typing import Callable
@@ -140,8 +140,8 @@ async def play(c: Client, m: Message):
                       InlineKeyboardButton("⏭️", "skip"),
                       InlineKeyboardButton("▶️", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("• Group", url=f"https://t.me/PmPermit"),
-                      InlineKeyboardButton("• Devloper", url=f"https://t.me/FriDayNetwork"),
+                      InlineKeyboardButton("• Group", url=f"https://t.me/iam_your_heart4"),
+                      InlineKeyboardButton("• Devloper", url=f"https://t.me/iam_your_heart4"),
                   ],[
                       InlineKeyboardButton("🗑", callback_data="cls")],
                   ]
@@ -265,7 +265,7 @@ async def play(c: Client, m: Message):
             )
         else:
             suhu = await m.reply_text(
-        f"**Downloading**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%"
+        f"**Broken Mr z Downloading**\n\n0% ▓▓▓▓▓▓ 100%"
     )
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
@@ -300,7 +300,7 @@ async def play(c: Client, m: Message):
                     else:
                         try:
                             await suhu.edit(
-                            f"**𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**Broken Mr z Downloader**\n\n**Title**: {title[:22]}\n\n100% ███████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
