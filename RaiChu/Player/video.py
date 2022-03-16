@@ -54,7 +54,7 @@ async def ytdl(link):
         return 0, stderr.decode()
 
 
-@Client.on_message(command(["vplay", f"vplay@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["vplayy", f"vplay@{BOT_USERNAME}"]) & other_filters)
 async def vplay(c: Client, m: Message):
     await m.delete()
     replied = m.reply_to_message
@@ -229,7 +229,7 @@ async def vplay(c: Client, m: Message):
                         else:
                             try:
                                 await loser.edit(
-                            f"**𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**Broken Mr z music Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                                 await call_py.join_group_call(
                                     chat_id,
@@ -306,7 +306,7 @@ async def vplay(c: Client, m: Message):
                     else:
                         try:
                             await loser.edit(
-                            f"**𝘽𝙤𝙩 𝘿𝙪𝙣𝙞𝙮𝙖 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**Broken Mr z music Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
@@ -331,7 +331,7 @@ async def vplay(c: Client, m: Message):
                             await m.reply_text(f"🚫 error: `{ep}`")
 
 
-@Client.on_message(command(["vstream", f"vstream@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["vstreamm", f"vstream@{BOT_USERNAME}"]) & other_filters)
 async def vstream(c: Client, m: Message):
     await m.delete()
     chat_id = m.chat.id
